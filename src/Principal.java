@@ -9,6 +9,8 @@ public class Principal {
 		//para la asignatura de ticII
 		//Aqui se incluye el funcionamiento
 		
+
+		
 		
 		
 		
