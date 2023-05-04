@@ -7,7 +7,7 @@ public class Principal {
 		
 		//Esta es la clase principal de mi proyecto de informática
 		//para la asignatura de ticII
-		//Aqui se incluye el funcionamiento
+		//Aqui se incluye el funcionamiento del codigo
 		
 		
 		
