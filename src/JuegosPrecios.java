@@ -10,7 +10,7 @@ public class JuegosPrecios {
         if (categoria.equalsIgnoreCase("Terror"))
         {
         	//Limito el presupeusto entre 10 y 20, recomiendo un juego
-            if (presupuesto >= 10 && presupuesto <= 20)
+            if (presupuesto >= 11 && presupuesto <= 20)
             {
                 juegoRecomendado = "Le recomendamos Phasmophobia, un juego divertido y cooperativo para encontrar fantasmas en una casa o similar, como Ghost Watchers.";
             } else if (presupuesto > 20 && presupuesto <= 30) 
@@ -24,7 +24,7 @@ public class JuegosPrecios {
         	} 
         	else if (categoria.equalsIgnoreCase("Aventura"))
         	{
-            if (presupuesto >= 30 && presupuesto <= 50) 
+            if (presupuesto >= 31.99 && presupuesto <= 50) 
             {
                 juegoRecomendado = "Le recomendamos Mario and Rabbids, un juego divertido basado en el personaje Mario + Rabbids Kingdom Battle";
             }
@@ -38,7 +38,7 @@ public class JuegosPrecios {
         	}
         	else if (categoria.equalsIgnoreCase("Diversión"))
         	{
-        	if (presupuesto >= 0 && presupuesto <= 10) 
+        	if (presupuesto >= 5 && presupuesto <= 10) 
             {
                 juegoRecomendado = "Le recomendamos Left 4 Dead 2, un grupo de 4 integrantes luchando por sobrevivir en un apocalipsis zombie.";
             }
