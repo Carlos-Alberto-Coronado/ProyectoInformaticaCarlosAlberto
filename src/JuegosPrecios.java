@@ -24,7 +24,7 @@ public class JuegosPrecios {
         	} 
         	else if (categoria.equalsIgnoreCase("Aventura"))
         	{
-            if (presupuesto >= 31.99 && presupuesto <= 50) 
+            if (presupuesto >= 31 && presupuesto <= 50) 
             {
                 juegoRecomendado = "Le recomendamos Mario and Rabbids, un juego divertido basado en el personaje Mario + Rabbids Kingdom Battle";
             }

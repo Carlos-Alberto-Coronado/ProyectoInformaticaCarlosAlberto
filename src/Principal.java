@@ -13,7 +13,7 @@ public class Principal {
 	
 		//tiene que poner el presupeusto que dispone el usario
 		Scanner n1 = new Scanner(System.in);
-	    System.out.println("Ingrese el presupuesto que dispone ");
+	    System.out.println("Ingrese el presupuesto que dispone en euros para recomendar el juego: ");
 	    int presupuesto = n1.nextInt();
 	     //mediante entrada datos creo nuevo bojeto de la clase entradadatos y le digo que seleccione la categoria que quiera el juego
 	    EntradaDatos ed = new EntradaDatos();
