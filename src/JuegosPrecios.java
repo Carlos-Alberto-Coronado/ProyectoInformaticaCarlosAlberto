@@ -19,7 +19,7 @@ public class JuegosPrecios {
                 juegoRecomendado = "Le recomendamos Outlast, un juego de terror psicológico que te mantendrá al filo del miedo.";
             } else
             {
-                juegoRecomendado = "Por el momento no tenemos juegos que recomendar con ese presupuesto.";
+                juegoRecomendado = "Por el momento no tenemos juegos para recomendar,  mas adelante introduciremos otros más";
             }
         	} 
         	else if (categoria.equalsIgnoreCase("Aventura"))
@@ -33,23 +33,24 @@ public class JuegosPrecios {
                 juegoRecomendado = "Le recomendamos The Legend of Zelda: Breath of the Wild, un juego de aventuras épico en un mundo abierto.";
             } else 
             {
-                juegoRecomendado = "Por el momento no tenemos juegos que recomendar con ese presupuesto.";
+                juegoRecomendado = "Por el momento no tenemos juegos para recomendar, mas adelante introduciremos otros más";
             }
         	}
         	else if (categoria.equalsIgnoreCase("Diversión"))
         	{
         	if (presupuesto >= 0 && presupuesto <= 10) 
             {
-                juegoRecomendado = "Le recomendamos Fall Guys, un juego de diversión y risas para jugar con tus amigos.";
+                juegoRecomendado = "Le recomendamos Left 4 Dead 2, un grupo de 4 integrantes luchando por sobrevivir en un apocalipsis zombie.";
             }
             else if (presupuesto > 10 && presupuesto <= 30) 
             {
-                juegoRecomendado = "Le recomendamos Left 4 Dead 2, un grupo de 4 integrantes luchando por sobrevivir en un apocalipsis zombie.";
+                juegoRecomendado = "Le recomendamos Fall Guys, un juego de diversión y risas para jugar con tus amigos";
             }
             else 
             {
-                juegoRecomendado = "Por el momento no tenemos juegos que recomendar con ese presupuesto.";
-            }
+                juegoRecomendado = "Por el momento no tenemos juegos para recomendar , mas adelante introduciremos otros más";
+            
+        	}
         	}
         	else 
         	{
@@ -62,7 +63,7 @@ public class JuegosPrecios {
 	
 }
 
-	
+
 			
 
 		
